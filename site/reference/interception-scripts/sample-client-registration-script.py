@@ -35,7 +35,7 @@ class ClientRegistration(ClientRegistrationType):
 
         addAddressScope = False
         for redirectUri in redirectUris:
-            if (StringHelper.equalsIgnoreCase(redirectUri, "https://client.example.com/example1")):
+            if (StringHelper.equalsIgnoreCase(redirectUri, "#")):
                 addAddressScope = True
                 break
         
