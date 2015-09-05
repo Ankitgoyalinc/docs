@@ -849,7 +849,7 @@ String result = response.getResponseBodyString(); // this will give you Response
 
 <h2 id="oxauth-client-creation">oxAuth Client Creation</h2>
 <p>It’s possible to create an oxAuth client dynamically using SCIM-Client , this option is available using the static method “create” method of the class ”OxAuthClientCreator”, where “applicationName” is the name of the desired client, “registerUrl” is the client registration url example : 
-<a href="http://localhost:8080/oxauth/seam/resource/restv1/oxauth/register">http://localhost:8080/oxauth/seam/resource/restv1/oxauth/register</a>
+<a href="#">http://localhost:8080/oxauth/seam/resource/restv1/oxauth/register</a>
 and “redirectUris” is a space separated String containing the desired redirect urls.</p>
 <pre class="prettyprint well"><code>CreationResult response = OxAuthClientCreator.create( applicationName, registerUrl, redirectUris);
 response.getStatus(); // the status of the request 200 if successful
