@@ -36,7 +36,7 @@ and custom authentication and authorization requirements.
 
 ## 389DS Indexing
 
-[Indexing Architecture](http://directory.fedoraproject.org/wiki/Database_Architecture#Indexing)
+[Indexing Architecture]
 
 ## OpenLDAP Indexing
 
